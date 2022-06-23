@@ -1,0 +1,27 @@
+server: "mobile-hub.lambdatest.com"
+
+common_caps:
+  "user": "username"
+  "accessKey": "accesskey"
+  "project": "First Cucumber Android Project"
+  "build": "build-1"
+  
+
+browser_caps:
+  -
+    "platformName": "Android"
+    "platformVersion": "9"
+    "deviceName": "Galaxy S8 Plus"
+    "app": "lt://"
+    "name": "first_test"
+    "isRealMobile": "true"
+    "geoLocation":"fr"
+
+
+
+
+
+
+
+
+
